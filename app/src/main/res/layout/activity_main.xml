@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the phone number of recipient"
+        />
+    <EditText
+        android:id="@+id/txtPhoneNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        />
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="150px"
+        android:gravity="top"
+        />
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="216dp"
+        android:layout_height="39dp"
+
+        android:background="@drawable/button1"
+        android:drawableRight="@drawable/ic_polymer_black_24dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="2dip"
+        android:paddingLeft="3dip"
+        android:paddingRight="10dip"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="Zazwól na wysyłanie SMS"
+        android:textAllCaps="false"
+        android:textColor="#0C104A"
+        android:textSize="14sp"
+        android:typeface="normal" />
+</LinearLayout>
